@@ -49,14 +49,14 @@
     console.log(typeof  numero);
     console.log(typeof  texto);
       
-    // Conversão de variá
+    // Conversão de variável
     
     const numeroNumber = 390;
     const numeroString = "390"
 
     console.log(numeroNumber == numeroString); // compara apenas o valor
     console.log(numeroNumber === numeroString); // compara o tipo
-    console.log(numeroNumber + numeroString); // concatenação
+    console.log(numeroNumber + numeroString); // concatenacao
     console.log(numeroNumber + Number(numeroString)); // Soma de numeros
 
     

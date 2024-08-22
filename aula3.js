@@ -1,39 +1,36 @@
-//Alguns erros comuns
+// alguns erros comuns
 
-//const  numero; Primeiro erro: Não declarar uma constante
+// const numero; primeiro erro:(const nao declarada)
 
+const minhaVar = "oi"// segundo erro(não declarar uma variavel e chamar -la no codigo)
+console.log(minhaVar)// exemplo chamr minhavar
 
-const minhaVar = "oi" // 2° Erro: Não declarar uma variável e chamar e chamar no codigo;
-console.log(minhaVar); // exemplo, chamar minhavar com V minusculo;]
+console.error("isso esta errado") // terceiro erro(voce pode declarar um erro com o console.erro )
+ 
+// condicional abreviada if(){}
 
-console.error("Isso está errado") // 3° "Erro" : Voce pode declarar um erro com o console.eeror
+let idadeMinha = 19;
+let idadeCliente = 18;
+if(idadeCliente >= idadeMinha){
+    console.log("pode")
+}
+else{
+    console.log("nao vai poder")
+}
 
-// Condicional abreviada if()
+console.log(idadeCliente>= idadeMinha? "cerveja" : "suco")
+//modo ternario, utilizando a estrutura____>=____?____:_____
+//modo ternario, utilizando a estrutura____<=____?____:_____
+//modo ternario, utilizando a estrutura____==____?____:_____
 
-let idadeMinima = 18;
-let idadecliente = 17;
-
-if(idadeCliente >= idadeMinima){
-    console.log("Cerveja")
-} else {
-    console.log("Nescau")
-} 
-
-//Valor termário
-console.log(idadecliente >= idadeMinima? "Cerveja" : "suco")
-//modo ternário, Utilizando a estrutura______>=_____? : __________
-//modo ternário, Utilizando a estrutura______<+_____? : __________
-//modo ternário, Utilizando a estrutura______==______? : _________
-
-//Template string
-
-const nome = "fernando";
+// template stryng
+const nome = "vini";
 const idade = 17;
-const cidadeNatal = "Foz do Iguaçu"
+const cidadeNatal = "Foz de iguaçu"
 
-const apresentacao = "meu nome é " + nome + ", minha idade é " + idade + " e nasci em cidade " + cidadeNatal;
+const apresentacao = "Meu nome é " + nome + ", minha idade é "+ idade + " e nasci em "+ cidadeNatal;
 console.log(apresentacao)
 
-//teplate string
-const apresentacao2 = `Meu nome é ${nome}, minha idade é ${idade}, e minha cidade natal é ${cidadeNatal}´
-console.log(aprentação2)
+const apresentacao2 =`Meu nome é ${nome}, minha idade é ${idade}, e minha cidade natal é ${cidadeNatal}`;
+console.log(apresentacao2)
+
